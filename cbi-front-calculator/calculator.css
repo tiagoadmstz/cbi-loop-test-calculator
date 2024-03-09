@@ -1,0 +1,88 @@
+:root {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 80%;
+  padding: 0 5%;
+}
+
+.input-output-container {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.looptest-tips-container {
+  width: 100%;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.bt-clear {
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 0.5rem;
+}
+
+.calculator-inputs {
+  margin-top: 10px;
+  padding: 0 10px 10px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 0.5rem;
+}
+
+.calculator-inputs div label {
+  width: 100%;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.calculator-inputs div input {
+  width: 95.5%;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.calculator-outputs {
+  margin-top: 10px;
+  padding: 10px 10px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 0.5rem;
+}
+
+.calculator-outputs div label {
+  width: 100%;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.calculator-outputs div input {
+  width: 95.5%;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.bt-caculate {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.calculator-footer {
+  display: flex;
+  padding: 2rem 30%;
+}

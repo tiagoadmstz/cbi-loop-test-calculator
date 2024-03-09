@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./calculator.css">
+  <title>Loop-Test Calculaor</title>
+</head>
+<body>
+  <div class="container">
+    <div class="input-output-container">
+      <div class="calculator-inputs">
+        <h3>Entradas</h3>
+        <div>
+          <button type="button" class="bt-clear">Zerar caixas</button>
+        </div>
+        <div>
+          <label for="tensao">Tensão (V)</label>
+          <input type="number" id="tensao">
+        </div>
+        <div>
+          <label for="frequencia">Frequência (Hz)</label>
+          <input type="number" id="frequencia">
+        </div>
+        <div>
+          <label for="diamento-externo">Diâmetro externo do estator (mm)</label>
+          <input type="number" id="diamento-externo">
+        </div>
+        <div>
+          <label for="diamento-interno">Diâmetro interno do estator (mm)</label>
+          <input type="number" id="diamento-interno">
+        </div>
+        <div>
+          <label for="altura-ranhura">Altura da ranhura (mm)</label>
+          <input type="number" id="altura-ranhura">
+        </div>
+        <div>
+          <label for="comprimento-pacote">Comprimento do pacote (mm)</label>
+          <input type="number" id="comprimento-pacote">
+        </div>
+      </div>
+      <div class="calculator-outputs">
+        <div>
+          <label for="numero-espiras">Números de espiras</label>
+          <input type="number" id="numero-espiras">
+        </div>
+        <div>
+          <label for="seccao-condutor">Secção do condutor (mm)</label>
+          <input type="number" id="seccao-condutor">
+        </div>
+        <button type="button" class="bt-caculate">Calcular</button>
+      </div>
+    </div>
+    <div class="looptest-tips-container">
+      <div class="looptest-tips">
+        <h3>Dicas sobre o Loop-Test</h3>
+        <ol id="tips-list">
+          <li>O tempo de indução, deve ser em torno de 45 minutos à 60 minutos, para tornar o teste mais exato possível;</li>
+          <li>Caso haja algum ponto com temperatura de 10 graus Celsius acima dos outros pontos, então a carcaça com estator deve ser condenado;</li>
+          <li>Deve-se sempre marcar os pontos em que as temperaturas foram medidas, para evitar confusão com as medições;</li>
+          <li>As espiras devem ser divididas uniformimente nos 360 graus do estator, para melhorar a exatidão do teste;</li>
+          <li>O teste deve ser feito com o estator limpo e de preferência sem o bobinado queimado, ou então com todas as ligações em aberto;</li>
+          <li>O teste deve ser feito com o estator dentro da carcaça;</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <footer class="calculator-footer">
+    <div class="looptest-diagram">
+      <img src="./looptest.gif" alt="Loop-Test Diagram">
+    </div>
+  </footer>
+</body>
+</html>
